@@ -20,3 +20,14 @@ Make the UI as user-friendly as possible, and as interactive as possible. **And*
 [ ] PDF or Text file of the design doc, attached in Brightspace  
 
 **AI IS ALLOWED**, but you must document AI usage in the design doc. Remember to use AI as a senior developer who can guide you, not as a mindless code generator!
+
+| Category                               |  Points |
+| -------------------------------------- | ------: |
+| Program runs correctly                 |      20 |
+| UI/UX improvements                     |      20 |
+| Input validation                       |      20 |
+| Logic improvements                     |      15 |
+| Reduced redundancy / code organization |      10 |
+| Bonus feature                          |       5 |
+| Design document quality                |      10 |
+| **Total**                              | **100** |
