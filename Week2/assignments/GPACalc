@@ -1,0 +1,71 @@
+//Christopher Dorsainvil
+#include <iostream>
+int main() {
+
+    std::string creditGrade;
+    int counter = 0;
+    double score = 0;
+    int finalCredits = 0;
+    double finalPoints = 0;
+
+
+
+
+    while (true){
+   
+    std::cout << "Please enter Class & Grades, (Must be less than 10 credits)  or enter quit to exit:" ;
+    std::cin >> creditGrade; 
+    
+    if (creditGrade == "quit"){
+            break;
+        }
+
+    //parses the string in order to extract the 2 variables.
+      int credits = creditGrade[0] - '0';
+      std::string grade = creditGrade.substr(1); 
+        
+        if (grade == "A+"){
+            score = 4.0;
+        }
+        else if (grade == "A"){
+            score = 4.0;
+        }
+        else if (grade == "A-"){
+            score = 3.7;
+        }
+        else if (grade == "B+"){
+            score = 3.3;
+        }
+        else if (grade == "B"){
+            score = 3.0;
+        }
+        else if (grade == "B-"){
+            score = 2.7;
+        }
+        else if (grade == "C+"){
+            score = 2.3;
+        }
+        else if (grade == "C"){
+            score = 2.0;
+        }
+        else if (grade == "D"){
+            score = 1.0;
+        }
+        else if (grade == "F" || grade == "WU" || grade == "FIN" || grade == "FAB"){
+            score = 0.0;
+        } else {
+            std::cout << "Invalid grade\n";
+            continue;
+        }
+
+        finalCredits += credits;
+        finalPoints += credits * score;
+        counter++;
+
+        double gpa = finalPoints / finalCredits;
+
+        std::cout << "Classes taken: " << counter << ", Semester GPA: " << gpa << std::endl;
+
+}
+return 0;
+}

@@ -2,8 +2,7 @@
 
 ## Program Name
 
-(Name of the assignment)
-
+Rock, Paper, Scissors Game Improvement
 ## Purpose
 
 Briefly explain what the program does and what problem it solves.
