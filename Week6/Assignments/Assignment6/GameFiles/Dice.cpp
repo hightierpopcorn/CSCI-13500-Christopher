@@ -8,6 +8,10 @@
 //   If you seed it INSIDE this function, what happens every time it's called?
  
 int RollDice() {
-    // TODO: replace this placeholder
-    return 0;
+    static bool seeded = false;
+    if (!seeded){
+        srand(time(0));
+        seeded = true;   
+    } 
+      return rand() % 6 + 1;
 }
