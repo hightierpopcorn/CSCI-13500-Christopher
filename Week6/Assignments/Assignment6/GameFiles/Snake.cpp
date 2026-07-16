@@ -116,12 +116,12 @@ void Snake::PrintSnake() const {
             if (!isFirst) {
                 std::cout << " -> ";
             }
-            std::cout << "[" << current->body_part_ << "]";
-            isFirst = false;
-            current = current->next_;
-        }
-        std::cout << std::endl;
+        std::cout << "[" << current->body_part_ << "]";
+        isFirst = false;
+        current = current->next_;
     }
+    std::cout << std::endl;
+}
 }
 
 
