@@ -171,7 +171,7 @@ int main()
 
 ### Questions
 
-1. Predict the output of the program.
+1. Predict the output of the program. 29
 2. Draw the call stack after each function call.
 3. Which function uses:
    - Pass by Copy?
@@ -189,6 +189,6 @@ Answer the following questions in complete sentences.
 
 1. What is the difference between passing a variable by copy, by reference, and by pointer?
 2. When would you choose to use a reference instead of a pointer?
-3. Why might a function accept a pointer instead of a reference?
-4. What role does the `const` keyword play when working with references and pointers?
+3. Why might a function accept a pointer instead of a reference? A function may accept a pointer when the argument is optional or when nullptr needs to be allowed.
+4. What role does the `const` keyword play when working with references and pointers? The const keyword prevents a referenced or pointed-to value from being modified.
 5. How does understanding the call stack help explain why variables change—or do not change—during function calls?
