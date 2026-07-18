@@ -11,7 +11,7 @@ This week we will be covering:
 
 ## Homework Tasks
 Please complete the follow check-list by their due dates.  
-[ ] Study for finals! 
+[ ] Study for finals!  
 [ ] Final Project Due on Friday @ 11:59PM
 
  
